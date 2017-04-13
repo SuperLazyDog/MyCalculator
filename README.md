@@ -4,7 +4,7 @@ Copyright ©2017 Xu Weida, All Rights Reserved<br>
 ----------------------------------------------------------------------<br>
 this is a project i create to learn how to use Xcode.<br>
 这是我用来学习使用Xcode的工程。<br>
-これは私がXcodeの使い方を使いこなすためのプロジェトです。<br>
+これは私がXcodeの使い方を勉強ためのプロジェトです。<br>
 ----------------------------------------------------------------------<br>
 
 This is a calculator in iPad which is similar with the one in iphone.
@@ -19,7 +19,7 @@ the onethat is very similar with the default calculator in our iphone.
 
 这是一个类似iphone自带计算器的在iPad上的计算器app。现在，你几乎可以在任何介绍如何开发iOS app的书里看到计算器
 的例子。毕竟，这很简单，而且可以学习到一些基本控件的简单用法。但是，这个计算器与你在各种书籍及网络上所看到的完全不同。
-通过对iPhone自带计算器的深入挖掘，本人在这个面相iPad的计算器里加入了大量的功能。通过使用，你能充分感受到其中的乐趣。
+通过对iPhone自带计算器的深入挖掘，本人在这个面向iPad的计算器里加入了大量的功能。通过使用，你能充分感受到其中的乐趣。
 同时，本人也在其中加入了大量丰富的UI机能，相信通过不断的享受这个计算器的乐趣，你能发现更多。
 
 <br>
