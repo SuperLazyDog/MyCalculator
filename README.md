@@ -1,5 +1,12 @@
 #My Calculator<br><br><br><br>
 
+Copyright ©2017 Xu Weida, All Rights Reserved<br>
+----------------------------------------------------------------------<br>
+this is a project i create to learn how to use Xcode.<br>
+这是我用来学习使用Xcode的工程。<br>
+これは私がXcodeの使い方を使いこなすためのプロジェトです。<br>
+----------------------------------------------------------------------<br>
+
 This is a calculator in iPad which is similar with the one in iphone.
 Now，you can find some sample calculator app in almost book which teach you how to
 create some iOS app. But this is quiet different from that. You can enjoy your self
