@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController restorationIdentifier="1" storyboardIdentifier="1" id="BYZ-38-t0r" customClass="ViewController" customModule="MyCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dgw-Zk-K6m"/>
+                        <viewControllerLayoutGuide type="bottom" id="sMI-zC-NFe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kb-IY-HYp">
+                                <rect key="frame" x="192" y="565" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button5DragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="cL0-zg-ZjI"/>
+                                    <action selector="tap5Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IMF-xb-KMv"/>
+                                    <action selector="tap5ButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="dif-26-Zau"/>
+                                    <action selector="tap5ButtonDragEnter:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="6mN-z2-Iip"/>
+                                    <action selector="tap5ButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="Phm-ZO-sOv"/>
+                                    <action selector="tap5ButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="SzQ-kp-Aw3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ER9-RL-2nB">
+                                <rect key="frame" x="384" y="565" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button6DragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="qjP-b1-GsH"/>
+                                    <action selector="tap6Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oJC-g5-9wC"/>
+                                    <action selector="tap6ButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="yqM-hn-9fl"/>
+                                    <action selector="tap6ButtonDragEnter:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="DU5-BV-up8"/>
+                                    <action selector="tap6ButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="7fK-eq-CNL"/>
+                                    <action selector="tap6ButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="rwA-WZ-XW3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUS-o0-ijJ">
+                                <rect key="frame" x="192" y="718" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button2DragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="XbI-J8-1zE"/>
+                                    <action selector="tap2Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MvF-9U-aai"/>
+                                    <action selector="tap2ButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="dxy-v9-U2V"/>
+                                    <action selector="tap2ButtonDragEnter:forEvent:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="Gjq-PK-khl"/>
+                                    <action selector="tap2ButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="xAh-Iy-1KV"/>
+                                    <action selector="tap2ButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="6ki-xj-H1n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1g-om-Zq2">
+                                <rect key="frame" x="384" y="718" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button3DragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="PaE-hi-Mla"/>
+                                    <action selector="tap3Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ayc-41-tqD"/>
+                                    <action selector="tap3ButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="BUQ-Sx-AGp"/>
+                                    <action selector="tap3ButtonDragEnter:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="Dko-yo-2NN"/>
+                                    <action selector="tap3ButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="CHn-oo-yPt"/>
+                                    <action selector="tap3ButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="yMd-LS-xdl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqJ-Ma-Uma">
+                                <rect key="frame" x="384" y="871" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonDotDragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="qlj-RG-ZZ5"/>
+                                    <action selector="tapDotButon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rwx-Qf-jjy"/>
+                                    <action selector="tapDotButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="Iqn-hb-08H"/>
+                                    <action selector="tapDotButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="P4a-3R-nDt"/>
+                                    <action selector="tapDotButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="CoD-bm-tlZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZI-sJ-q1k">
+                                <rect key="frame" x="192" y="412" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button8DragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="Nij-AS-EoP"/>
+                                    <action selector="tap8Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7LN-nI-PZr"/>
+                                    <action selector="tap8ButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="Azo-rw-IAk"/>
+                                    <action selector="tap8ButtonDragEnter:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="fxs-vC-TlQ"/>
+                                    <action selector="tap8ButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="yhJ-bJ-y0c"/>
+                                    <action selector="tap8ButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="jdh-X3-OoZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6KE-O6-2U3">
+                                <rect key="frame" x="384" y="412" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button9DragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="10O-BD-XEL"/>
+                                    <action selector="tap9Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XQ6-yS-NvK"/>
+                                    <action selector="tap9ButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="D3i-tN-bFE"/>
+                                    <action selector="tap9ButtonDragEnter:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="2o4-hv-MIq"/>
+                                    <action selector="tap9ButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="Osi-ET-hnC"/>
+                                    <action selector="tap9ButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="pwF-h6-dFR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAo-a0-Rj6">
+                                <rect key="frame" x="0.0" y="259" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.5397379994392395" green="0.53969019651412964" blue="0.53977680206298828" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192" id="4s7-6b-ZOF"/>
+                                    <constraint firstAttribute="height" constant="153" id="AZM-ep-xe1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonCDragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="7jo-50-Gox"/>
+                                    <action selector="tapCButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="leP-Vk-XeS"/>
+                                    <action selector="tapCButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="D9N-v4-4Ve"/>
+                                    <action selector="tapCButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="guK-1v-x4d"/>
+                                    <action selector="tapCButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="UEp-dB-NVd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAY-CI-UV3">
+                                <rect key="frame" x="192" y="259" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.47058823529411764" green="0.47058823529411764" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192" id="O2y-Xc-xSG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="+/-">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPEDragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="fK1-1C-YOR"/>
+                                    <action selector="tapPEButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="5WD-n7-Oma"/>
+                                    <action selector="tapPEButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="LYM-Qy-dhs"/>
+                                    <action selector="tapPMButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KOO-Tv-xRp"/>
+                                    <action selector="tapPMButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="FdR-tM-ZDh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrA-Kn-rrH">
+                                <rect key="frame" x="384" y="259" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192" id="9j0-a0-s7g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="%">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPercentDragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="sTd-LU-eSe"/>
+                                    <action selector="tapPercentButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8tt-Yw-V2F"/>
+                                    <action selector="tapPercentButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="bHk-cU-JWq"/>
+                                    <action selector="tapPercentButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="vFh-mC-Gib"/>
+                                    <action selector="tapPercentButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="NGf-JY-VG9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ee6-qB-NVH">
+                                <rect key="frame" x="0.0" y="871" width="384" height="153"/>
+                                <color key="backgroundColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="gFR-7Y-F0H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button0DragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="8pj-hY-3ac"/>
+                                    <action selector="tap0Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RFu-Fx-MXP"/>
+                                    <action selector="tap0ButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="8UA-EX-S9i"/>
+                                    <action selector="tap0ButtonDragEnter:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="D5j-am-rAB"/>
+                                    <action selector="tap0ButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="1cB-oa-RSh"/>
+                                    <action selector="tap0ButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="4uR-qH-BdC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aj8-cS-Lva">
+                                <rect key="frame" x="576" y="718" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.92156862745098034" green="0.50980392156862742" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPlusDragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="NXe-jZ-YKf"/>
+                                    <action selector="tapPlusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RjQ-DN-gqV"/>
+                                    <action selector="tapPlusButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="4w6-p2-ZGg"/>
+                                    <action selector="tapPlusButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="GfP-je-P3b"/>
+                                    <action selector="tapPlusButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="e7r-FB-PUp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htm-05-1x2">
+                                <rect key="frame" x="576" y="871" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.92156862745098034" green="0.50980392156862742" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonEqualDragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="dC8-ac-Ayg"/>
+                                    <action selector="tapEqualButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LsS-Bf-9hV"/>
+                                    <action selector="tapEqualButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="CD5-QF-cmH"/>
+                                    <action selector="tapEqualButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="35s-ZF-Q7Q"/>
+                                    <action selector="tapEqualButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="mK1-Oa-KsY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KII-R6-DAj">
+                                <rect key="frame" x="576" y="412" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.92156862745098034" green="0.50980392156862742" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonMultiDragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="0wd-Tb-TKf"/>
+                                    <action selector="tapMultiButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KFT-AL-qIn"/>
+                                    <action selector="tapMultiButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="RQp-Wx-yDv"/>
+                                    <action selector="tapMultiButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="UEI-tE-q27"/>
+                                    <action selector="tapMultiButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="1tK-OG-OvH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tQL-EC-Oup">
+                                <rect key="frame" x="576" y="565" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.92156862745098034" green="0.50980392156862742" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonMinusDragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="xv6-m8-oVf"/>
+                                    <action selector="tapMinusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UCs-ge-Oc0"/>
+                                    <action selector="tapMinusButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="Po2-Vv-Tib"/>
+                                    <action selector="tapMinusButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="gsA-kb-YxV"/>
+                                    <action selector="tapMinusButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="BUx-hy-PGD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCs-Yb-7eh">
+                                <rect key="frame" x="0.0" y="412" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="JtD-EW-p0F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button7DragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="JDC-d4-hXc"/>
+                                    <action selector="tap7Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qOK-y5-e1t"/>
+                                    <action selector="tap7ButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="TPP-iT-vhP"/>
+                                    <action selector="tap7ButtonDragEnter:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="xBC-SS-Q8y"/>
+                                    <action selector="tap7ButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="FlR-JY-MlI"/>
+                                    <action selector="tap7ButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="RrB-5R-Gke"/>
+                                </connections>
+                            </button>
+                            <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="0" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olY-v8-zki">
+                                <rect key="frame" x="0.0" y="20" width="768" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="76"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zS1-Am-zb1">
+                                <rect key="frame" x="0.0" y="718" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="oHE-bh-XB0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button1DragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="GiK-m6-I1N"/>
+                                    <action selector="tap1Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nd2-xe-fhc"/>
+                                    <action selector="tap1ButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="b1t-FB-aoL"/>
+                                    <action selector="tap1ButtonDragEnter:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="Iin-Kt-9dL"/>
+                                    <action selector="tap1ButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="hP8-zQ-txN"/>
+                                    <action selector="tap1ButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Tv0-Zd-KdN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDF-LS-lok">
+                                <rect key="frame" x="576" y="259" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.92156862745098034" green="0.50980392156862742" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="/">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonDivDragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="hqY-vr-eTs"/>
+                                    <action selector="tapDivButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oAG-su-1Aw"/>
+                                    <action selector="tapDivButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="acD-LZ-e9U"/>
+                                    <action selector="tapDivButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="Fyc-GQ-IqU"/>
+                                    <action selector="tapDivButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="sT0-BA-qiQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckz-Gp-99c">
+                                <rect key="frame" x="0.0" y="565" width="192" height="153"/>
+                                <color key="backgroundColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="uIW-xF-pAS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button4DragOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="oCQ-mH-0qh"/>
+                                    <action selector="tap4Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dza-1u-Rbe"/>
+                                    <action selector="tap4ButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="lRl-ll-Xbr"/>
+                                    <action selector="tap4ButtonDragEnter:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="vxZ-aR-3cv"/>
+                                    <action selector="tap4ButtonDragExit:" destination="BYZ-38-t0r" eventType="touchDragExit" id="PVk-YG-KNx"/>
+                                    <action selector="tap4ButtonUpOutside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="yv9-LX-2dn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="N1g-om-Zq2" firstAttribute="baseline" secondItem="Aj8-cS-Lva" secondAttribute="baseline" id="0nH-Cv-9uD"/>
+                            <constraint firstItem="N1g-om-Zq2" firstAttribute="baseline" secondItem="Aj8-cS-Lva" secondAttribute="firstBaseline" id="0r7-Y1-Hvm"/>
+                            <constraint firstItem="kCs-Yb-7eh" firstAttribute="baseline" secondItem="LZI-sJ-q1k" secondAttribute="baseline" id="2cJ-nP-sI9"/>
+                            <constraint firstItem="LZI-sJ-q1k" firstAttribute="leading" secondItem="0kb-IY-HYp" secondAttribute="leading" id="2jh-92-XBh"/>
+                            <constraint firstItem="Ckz-Gp-99c" firstAttribute="baseline" secondItem="0kb-IY-HYp" secondAttribute="baseline" id="2mc-vH-0ZF"/>
+                            <constraint firstItem="JUS-o0-ijJ" firstAttribute="top" secondItem="N1g-om-Zq2" secondAttribute="top" id="3Rq-oG-96k"/>
+                            <constraint firstItem="kCs-Yb-7eh" firstAttribute="leading" secondItem="Ckz-Gp-99c" secondAttribute="leading" id="4Yd-Yu-D6F"/>
+                            <constraint firstItem="kCs-Yb-7eh" firstAttribute="baseline" secondItem="LZI-sJ-q1k" secondAttribute="firstBaseline" id="4bQ-r4-5pl"/>
+                            <constraint firstItem="Ee6-qB-NVH" firstAttribute="top" secondItem="iqJ-Ma-Uma" secondAttribute="top" id="5u2-0Y-r12"/>
+                            <constraint firstItem="iqJ-Ma-Uma" firstAttribute="baseline" secondItem="htm-05-1x2" secondAttribute="baseline" id="6JX-wt-bou"/>
+                            <constraint firstItem="mrA-Kn-rrH" firstAttribute="baseline" secondItem="hDF-LS-lok" secondAttribute="firstBaseline" id="75S-AD-at2"/>
+                            <constraint firstItem="Ckz-Gp-99c" firstAttribute="baseline" secondItem="0kb-IY-HYp" secondAttribute="firstBaseline" id="7Z8-Gg-Tsm"/>
+                            <constraint firstItem="LZI-sJ-q1k" firstAttribute="baseline" secondItem="6KE-O6-2U3" secondAttribute="firstBaseline" id="9q1-53-KFu"/>
+                            <constraint firstItem="kCs-Yb-7eh" firstAttribute="top" secondItem="LZI-sJ-q1k" secondAttribute="top" id="9rZ-92-SRx"/>
+                            <constraint firstItem="hDF-LS-lok" firstAttribute="leading" secondItem="KII-R6-DAj" secondAttribute="leading" id="ACX-MT-drl"/>
+                            <constraint firstItem="dAo-a0-Rj6" firstAttribute="leading" secondItem="kCs-Yb-7eh" secondAttribute="leading" id="Aau-xr-qte"/>
+                            <constraint firstItem="ER9-RL-2nB" firstAttribute="baseline" secondItem="tQL-EC-Oup" secondAttribute="firstBaseline" id="BS5-ws-GIN"/>
+                            <constraint firstItem="zS1-Am-zb1" firstAttribute="baseline" secondItem="JUS-o0-ijJ" secondAttribute="baseline" id="BqQ-fu-upa"/>
+                            <constraint firstItem="bAY-CI-UV3" firstAttribute="leading" secondItem="dAo-a0-Rj6" secondAttribute="trailing" id="CXF-qd-iDH"/>
+                            <constraint firstItem="Aj8-cS-Lva" firstAttribute="leading" secondItem="htm-05-1x2" secondAttribute="leading" id="CtW-h3-pzO"/>
+                            <constraint firstItem="LZI-sJ-q1k" firstAttribute="trailing" secondItem="0kb-IY-HYp" secondAttribute="trailing" id="FYX-f4-bwY"/>
+                            <constraint firstItem="hDF-LS-lok" firstAttribute="leading" secondItem="mrA-Kn-rrH" secondAttribute="trailing" id="H7G-E4-SnM"/>
+                            <constraint firstItem="ER9-RL-2nB" firstAttribute="baseline" secondItem="tQL-EC-Oup" secondAttribute="baseline" id="Ie4-76-CRS"/>
+                            <constraint firstItem="JUS-o0-ijJ" firstAttribute="baseline" secondItem="zS1-Am-zb1" secondAttribute="firstBaseline" id="IwO-L6-yHD"/>
+                            <constraint firstItem="Ckz-Gp-99c" firstAttribute="top" secondItem="kCs-Yb-7eh" secondAttribute="bottom" id="Jmx-8d-Yjr"/>
+                            <constraint firstItem="ER9-RL-2nB" firstAttribute="trailing" secondItem="N1g-om-Zq2" secondAttribute="trailing" id="JpX-eN-eWv"/>
+                            <constraint firstItem="Ckz-Gp-99c" firstAttribute="trailing" secondItem="zS1-Am-zb1" secondAttribute="trailing" id="Lze-Ag-rdg"/>
+                            <constraint firstItem="kCs-Yb-7eh" firstAttribute="trailing" secondItem="Ckz-Gp-99c" secondAttribute="trailing" id="MCj-lz-ydw"/>
+                            <constraint firstItem="dAo-a0-Rj6" firstAttribute="baseline" secondItem="bAY-CI-UV3" secondAttribute="baseline" id="MVj-Le-EPL"/>
+                            <constraint firstItem="6KE-O6-2U3" firstAttribute="top" secondItem="KII-R6-DAj" secondAttribute="top" id="NFV-sI-8Dv"/>
+                            <constraint firstItem="ER9-RL-2nB" firstAttribute="leading" secondItem="N1g-om-Zq2" secondAttribute="leading" id="OO7-u1-5Ee"/>
+                            <constraint firstItem="6KE-O6-2U3" firstAttribute="leading" secondItem="ER9-RL-2nB" secondAttribute="leading" id="OkZ-ak-jmr"/>
+                            <constraint firstItem="iqJ-Ma-Uma" firstAttribute="baseline" secondItem="htm-05-1x2" secondAttribute="firstBaseline" id="Qld-l1-e0X"/>
+                            <constraint firstItem="dAo-a0-Rj6" firstAttribute="baseline" secondItem="bAY-CI-UV3" secondAttribute="firstBaseline" id="RCI-iH-mAc"/>
+                            <constraint firstItem="bAY-CI-UV3" firstAttribute="top" secondItem="mrA-Kn-rrH" secondAttribute="top" id="RwJ-5U-RXz"/>
+                            <constraint firstItem="ER9-RL-2nB" firstAttribute="top" secondItem="tQL-EC-Oup" secondAttribute="top" id="RxU-MH-OOc"/>
+                            <constraint firstItem="olY-v8-zki" firstAttribute="leading" secondItem="dAo-a0-Rj6" secondAttribute="leading" id="SRP-we-1WG"/>
+                            <constraint firstItem="mrA-Kn-rrH" firstAttribute="leading" secondItem="6KE-O6-2U3" secondAttribute="leading" id="SXW-Oi-GJd"/>
+                            <constraint firstItem="LZI-sJ-q1k" firstAttribute="top" secondItem="6KE-O6-2U3" secondAttribute="top" id="TN4-CD-I6a"/>
+                            <constraint firstItem="dAo-a0-Rj6" firstAttribute="trailing" secondItem="kCs-Yb-7eh" secondAttribute="trailing" id="TdM-zS-ca3"/>
+                            <constraint firstItem="KII-R6-DAj" firstAttribute="leading" secondItem="tQL-EC-Oup" secondAttribute="leading" id="U9A-6i-ory"/>
+                            <constraint firstItem="0kb-IY-HYp" firstAttribute="baseline" secondItem="Ckz-Gp-99c" secondAttribute="firstBaseline" id="UI9-HV-4Bu"/>
+                            <constraint firstItem="iqJ-Ma-Uma" firstAttribute="baseline" secondItem="Ee6-qB-NVH" secondAttribute="firstBaseline" id="UVa-G5-twi"/>
+                            <constraint firstItem="mrA-Kn-rrH" firstAttribute="trailing" secondItem="6KE-O6-2U3" secondAttribute="trailing" id="XvZ-2J-Hha"/>
+                            <constraint firstItem="0kb-IY-HYp" firstAttribute="baseline" secondItem="ER9-RL-2nB" secondAttribute="firstBaseline" id="Z44-uE-s3C"/>
+                            <constraint firstItem="zS1-Am-zb1" firstAttribute="top" secondItem="JUS-o0-ijJ" secondAttribute="top" id="Z6u-uM-tuh"/>
+                            <constraint firstItem="N1g-om-Zq2" firstAttribute="top" secondItem="Aj8-cS-Lva" secondAttribute="top" id="ZpU-yP-S5I"/>
+                            <constraint firstItem="bAY-CI-UV3" firstAttribute="leading" secondItem="LZI-sJ-q1k" secondAttribute="leading" id="ZvL-bj-8cj"/>
+                            <constraint firstItem="olY-v8-zki" firstAttribute="top" secondItem="Dgw-Zk-K6m" secondAttribute="bottom" id="a4u-aT-ATj"/>
+                            <constraint firstItem="Ee6-qB-NVH" firstAttribute="baseline" secondItem="iqJ-Ma-Uma" secondAttribute="baseline" id="agZ-RA-62X"/>
+                            <constraint firstItem="dAo-a0-Rj6" firstAttribute="top" secondItem="olY-v8-zki" secondAttribute="bottom" id="awQ-qR-P71"/>
+                            <constraint firstItem="mrA-Kn-rrH" firstAttribute="top" secondItem="hDF-LS-lok" secondAttribute="top" id="c5K-U4-kox"/>
+                            <constraint firstItem="KII-R6-DAj" firstAttribute="trailing" secondItem="tQL-EC-Oup" secondAttribute="trailing" id="cgc-JI-yfX"/>
+                            <constraint firstItem="Ckz-Gp-99c" firstAttribute="top" secondItem="0kb-IY-HYp" secondAttribute="top" id="csv-4e-CA3"/>
+                            <constraint firstItem="olY-v8-zki" firstAttribute="trailing" secondItem="hDF-LS-lok" secondAttribute="trailing" id="cxg-z9-bQC"/>
+                            <constraint firstItem="iqJ-Ma-Uma" firstAttribute="top" secondItem="N1g-om-Zq2" secondAttribute="bottom" id="e7j-zh-7Gk"/>
+                            <constraint firstItem="Ckz-Gp-99c" firstAttribute="leading" secondItem="zS1-Am-zb1" secondAttribute="leading" id="eU4-Ed-Efs"/>
+                            <constraint firstItem="mrA-Kn-rrH" firstAttribute="leading" secondItem="bAY-CI-UV3" secondAttribute="trailing" id="esf-bb-ulD"/>
+                            <constraint firstItem="mrA-Kn-rrH" firstAttribute="baseline" secondItem="hDF-LS-lok" secondAttribute="baseline" id="f2j-Q8-5WA"/>
+                            <constraint firstItem="N1g-om-Zq2" firstAttribute="trailing" secondItem="iqJ-Ma-Uma" secondAttribute="trailing" id="gcN-HX-MWn"/>
+                            <constraint firstItem="0kb-IY-HYp" firstAttribute="top" secondItem="ER9-RL-2nB" secondAttribute="top" id="gsg-Ag-jK2"/>
+                            <constraint firstItem="JUS-o0-ijJ" firstAttribute="trailing" secondItem="Ee6-qB-NVH" secondAttribute="trailing" id="hZY-Mc-dpp"/>
+                            <constraint firstItem="LZI-sJ-q1k" firstAttribute="baseline" secondItem="6KE-O6-2U3" secondAttribute="baseline" id="hkL-MT-P0d"/>
+                            <constraint firstItem="dAo-a0-Rj6" firstAttribute="top" secondItem="bAY-CI-UV3" secondAttribute="top" id="i0g-SU-Pzh"/>
+                            <constraint firstItem="olY-v8-zki" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iGZ-Ix-PKu"/>
+                            <constraint firstItem="zS1-Am-zb1" firstAttribute="leading" secondItem="Ee6-qB-NVH" secondAttribute="leading" id="iRg-f1-iHg"/>
+                            <constraint firstItem="kCs-Yb-7eh" firstAttribute="top" secondItem="dAo-a0-Rj6" secondAttribute="bottom" id="iVO-e4-gxU"/>
+                            <constraint firstItem="6KE-O6-2U3" firstAttribute="trailing" secondItem="ER9-RL-2nB" secondAttribute="trailing" id="izQ-ac-nVG"/>
+                            <constraint firstItem="bAY-CI-UV3" firstAttribute="baseline" secondItem="mrA-Kn-rrH" secondAttribute="baseline" id="j1i-mt-GNN"/>
+                            <constraint firstItem="JUS-o0-ijJ" firstAttribute="baseline" secondItem="N1g-om-Zq2" secondAttribute="baseline" id="kh3-gp-ch3"/>
+                            <constraint firstItem="hDF-LS-lok" firstAttribute="trailing" secondItem="KII-R6-DAj" secondAttribute="trailing" id="kr6-m0-IkU"/>
+                            <constraint firstItem="0kb-IY-HYp" firstAttribute="trailing" secondItem="JUS-o0-ijJ" secondAttribute="trailing" id="leI-Eo-ai0"/>
+                            <constraint firstItem="LZI-sJ-q1k" firstAttribute="baseline" secondItem="kCs-Yb-7eh" secondAttribute="firstBaseline" id="mqC-ah-Yyt"/>
+                            <constraint firstItem="zS1-Am-zb1" firstAttribute="top" secondItem="Ckz-Gp-99c" secondAttribute="bottom" id="ndn-wy-E7T"/>
+                            <constraint firstItem="tQL-EC-Oup" firstAttribute="trailing" secondItem="Aj8-cS-Lva" secondAttribute="trailing" id="nz6-ey-7od"/>
+                            <constraint firstItem="iqJ-Ma-Uma" firstAttribute="top" secondItem="htm-05-1x2" secondAttribute="top" id="onA-Gy-IhG"/>
+                            <constraint firstItem="bAY-CI-UV3" firstAttribute="baseline" secondItem="dAo-a0-Rj6" secondAttribute="firstBaseline" id="q0r-cj-7e4"/>
+                            <constraint firstItem="zS1-Am-zb1" firstAttribute="baseline" secondItem="JUS-o0-ijJ" secondAttribute="firstBaseline" id="q3t-G3-6D1"/>
+                            <constraint firstItem="bAY-CI-UV3" firstAttribute="trailing" secondItem="LZI-sJ-q1k" secondAttribute="trailing" id="qMG-KX-Tch"/>
+                            <constraint firstItem="N1g-om-Zq2" firstAttribute="leading" secondItem="iqJ-Ma-Uma" secondAttribute="leading" id="rYi-5a-UiB"/>
+                            <constraint firstItem="6KE-O6-2U3" firstAttribute="baseline" secondItem="KII-R6-DAj" secondAttribute="firstBaseline" id="sT4-K1-b6I"/>
+                            <constraint firstItem="Ee6-qB-NVH" firstAttribute="bottom" secondItem="sMI-zC-NFe" secondAttribute="top" id="tzJ-ZK-lOX"/>
+                            <constraint firstItem="htm-05-1x2" firstAttribute="baseline" secondItem="iqJ-Ma-Uma" secondAttribute="firstBaseline" id="uJS-dR-3QY"/>
+                            <constraint firstItem="0kb-IY-HYp" firstAttribute="baseline" secondItem="ER9-RL-2nB" secondAttribute="baseline" id="uoh-g1-OQG"/>
+                            <constraint firstItem="0kb-IY-HYp" firstAttribute="leading" secondItem="JUS-o0-ijJ" secondAttribute="leading" id="urf-bB-NK7"/>
+                            <constraint firstItem="bAY-CI-UV3" firstAttribute="baseline" secondItem="mrA-Kn-rrH" secondAttribute="firstBaseline" id="vIP-Vg-1Mj"/>
+                            <constraint firstItem="JUS-o0-ijJ" firstAttribute="baseline" secondItem="N1g-om-Zq2" secondAttribute="firstBaseline" id="vyZ-Wu-5Ta"/>
+                            <constraint firstItem="tQL-EC-Oup" firstAttribute="leading" secondItem="Aj8-cS-Lva" secondAttribute="leading" id="xQR-Np-ORC"/>
+                            <constraint firstItem="6KE-O6-2U3" firstAttribute="baseline" secondItem="KII-R6-DAj" secondAttribute="baseline" id="yac-LD-7pz"/>
+                            <constraint firstItem="Aj8-cS-Lva" firstAttribute="trailing" secondItem="htm-05-1x2" secondAttribute="trailing" id="zK9-hb-PD8"/>
+                            <constraint firstAttribute="trailing" secondItem="olY-v8-zki" secondAttribute="trailing" id="zOe-jr-vmW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button0" destination="Ee6-qB-NVH" id="fcq-dG-Qoe"/>
+                        <outlet property="button1" destination="zS1-Am-zb1" id="Dnn-iP-m0v"/>
+                        <outlet property="button2" destination="JUS-o0-ijJ" id="gsH-yj-ncS"/>
+                        <outlet property="button3" destination="N1g-om-Zq2" id="JkP-o3-XLx"/>
+                        <outlet property="button4" destination="Ckz-Gp-99c" id="uy7-sd-6jO"/>
+                        <outlet property="button5" destination="0kb-IY-HYp" id="B5Q-KO-2XP"/>
+                        <outlet property="button6" destination="ER9-RL-2nB" id="v17-0e-bRt"/>
+                        <outlet property="button7" destination="kCs-Yb-7eh" id="Ad0-ud-VDr"/>
+                        <outlet property="button8" destination="LZI-sJ-q1k" id="LBW-iw-KJI"/>
+                        <outlet property="button9" destination="6KE-O6-2U3" id="kYW-FL-lJJ"/>
+                        <outlet property="buttonC" destination="dAo-a0-Rj6" id="D4d-tN-Qnz"/>
+                        <outlet property="buttonDivi" destination="hDF-LS-lok" id="Unf-ya-vkq"/>
+                        <outlet property="buttonDot" destination="iqJ-Ma-Uma" id="Ccj-ie-nES"/>
+                        <outlet property="buttonEqual" destination="htm-05-1x2" id="ix7-Bi-7mh"/>
+                        <outlet property="buttonMinus" destination="tQL-EC-Oup" id="Kw1-pL-rjt"/>
+                        <outlet property="buttonMulti" destination="KII-R6-DAj" id="lld-wl-w5x"/>
+                        <outlet property="buttonPM" destination="bAY-CI-UV3" id="XPp-Bs-KMm"/>
+                        <outlet property="buttonPercent" destination="mrA-Kn-rrH" id="XM8-Mh-cC5"/>
+                        <outlet property="buttonPlus" destination="Aj8-cS-Lva" id="BYS-wg-DAW"/>
+                        <outlet property="resultTextView" destination="olY-v8-zki" id="1cx-IB-Tl7"/>
+                        <outlet property="viewMain" destination="8bC-Xf-vdC" id="zou-gT-ril"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-284.375" y="96.6796875"/>
+        </scene>
+    </scenes>
+</document>
