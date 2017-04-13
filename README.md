@@ -1,7 +1,7 @@
 #My Calculator<br><br><br><br>
 
 This is a calculator in iPad which is similar with the one in iphone.
-Now， you can find some sample calculator app in almost book which teach you how to
+Now，you can find some sample calculator app in almost book which teach you how to
 create some iOS app. But this is quiet different from that. You can enjoy your self
 in my Calculator with a lot of interesting function and UI design. Although it is just
 the onethat is very similar with the default calculator in our iphone.
