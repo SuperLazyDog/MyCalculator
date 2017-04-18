@@ -4,7 +4,7 @@ Copyright ©2017 Xu Weida, All Rights Reserved<br>
 ----------------------------------------------------------------------<br>
 this is a project i create to learn how to use Xcode.<br>
 这是我用来学习使用Xcode的工程。<br>
-これは私がXcodeの使い方を勉強ためのプロジェトです。<br>
+これは私がXcodeの使い方を勉強するためのプロジェトです。<br>
 ----------------------------------------------------------------------<br>
 
 This is a calculator in iPad which is similar with the one in iphone.
