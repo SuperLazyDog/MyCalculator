@@ -1,4 +1,4 @@
-# My Calculator<br><br><br><br>
+# My Calculator
 
 Copyright ©2017 Xu Weida, All Rights Reserved<br>
 ----------------------------------------------------------------------<br>
